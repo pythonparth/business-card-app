@@ -1,5 +1,7 @@
 # Business Card App
 -> Take User Credentials and embed it in a wrapper object 
-![image](https://github.com/user-attachments/assets/d50d79b1-8f5f-4ce2-aacd-9caeda018ecd)
-![image](https://github.com/user-attachments/assets/59fa763b-e67f-4f31-901b-fb606bda8e40)
+
+![image](https://github.com/user-attachments/assets/95b8e73a-0cb9-47b3-bddd-324879a2ff97) ![image](https://github.com/user-attachments/assets/5f46d64e-133a-462a-8c75-a894344127db)
+
+
 
