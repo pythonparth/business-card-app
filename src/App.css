@@ -1,0 +1,115 @@
+/* General container styling */
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input,
+.form textarea,
+.form button {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+/* Interests section */
+.form h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.form .interest-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.form .interest-input input {
+  flex: 1;
+}
+
+/* Cards container */
+.cards-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Business card styling */
+.business-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.business-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.business-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.business-card .social-media a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.business-card .social-media a:hover {
+  text-decoration: underline;
+}
+
+.business-card .interests ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.business-card .interests li {
+  font-size: 14px;
+  color: #555;
+}
